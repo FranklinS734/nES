@@ -42,3 +42,13 @@ console.log("After interest:", accountBalance);
 // Divide the account balance by 3 (splitting the account into multiple accounts)
 accountBalance /= 3; 
 console.log("After split:", accountBalance); 
+
+// Task 4: Customer Messaging
+// Declare a variable for the customer's name
+let customerName = "Sunny Man"; 
+
+// Creating a personal welcome message for the customer
+let welcomeMessage = "Greetings, " + customerName + "! Welcome to the future."; 
+
+// Output the welcome message
+console.log(welcomeMessage); 
