@@ -52,3 +52,14 @@ let welcomeMessage = "Greetings, " + customerName + "! Welcome to the future.";
 
 // Output the welcome message
 console.log(welcomeMessage); 
+
+// Task 5: Access Control
+// Declare a variable to check if the user is logged in
+let isLoggedIn = true; 
+
+// Check if the user is logged in and display the appropriate message
+if (isLoggedIn) { 
+    console.log("Access is allowed :)."); 
+} else { 
+    console.log("Access is not granted :(."); 
+}
